@@ -11,6 +11,7 @@
   </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+    <option name="TOOLTIPS_DELAY_MS" value="300" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
 </application>
