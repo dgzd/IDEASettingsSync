@@ -1,32 +1,32 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="new@userDefined" key=".nw" provider="builtin.java" language-level="7" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="$EXPR$ $END$ = new $EXPR$()" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="wp@userDefined" key=".wp" provider="builtin.java" language-level="7" topmost="false">
       <conditions />
       <template name="fakeKey" value="Wrapper&lt;$EXPR$&gt; wrapper = new EntityWrapper&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="lists@userDefined" key=".lists" provider="builtin.java" language-level="8" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="List&lt;$EXPR$&gt; $END$ = Lists.newArrayList();" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="ps@userDefined" key=".ps" provider="builtin.java" language-level="7" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="private String $EXPR$;" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="set@userDefined" key=".set" provider="builtin.java" language-level="8" topmost="false">
       <conditions />
-      <template name="fakeKey" value="Set&lt;$EXPR$&gt; $END$ = new HashSet&lt;&gt;();" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="Set&lt;$EXPR$&gt; $END$ = new HashSet&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="new@userDefined" key=".nw" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$ $END$ = new $EXPR$();" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="list@userDefined" key=".list" provider="builtin.java" language-level="7" topmost="false">
       <conditions />
       <template name="fakeKey" value="List&lt;$EXPR$&gt; $END$ = new ArrayList&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="lists@userDefined" key=".lists" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="List&lt;$EXPR$&gt; $END$ = Lists.newArrayList();" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="sets@userDefined" key=".sets" provider="builtin.java" language-level="8" topmost="false">
       <conditions />
-      <template name="fakeKey" value="Set&lt;$EXPR$&gt; $END$ = Sets.newHashSet();" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="Set&lt;$EXPR$&gt; $END$ = Sets.newHashSet();" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ps@userDefined" key=".ps" provider="builtin.java" language-level="7" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="private String $EXPR$;" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
