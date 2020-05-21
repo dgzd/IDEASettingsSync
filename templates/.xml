@@ -46,7 +46,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="gs" value="@Getter&#10;@Setter" description="@Getter  @Setter" toReformat="false" toShortenFQNames="true">
+  <template name="gs" value="import lombok.Getter;&#10;import lombok.Setter;&#10;&#10;@Getter&#10;@Setter" description="@Getter  @Setter" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
