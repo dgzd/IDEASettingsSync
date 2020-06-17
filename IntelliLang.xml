@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="java">
+      <display-name>AddScoreHandler.execute (com.lesso.handler)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("com.lesso.handler.AddScoreHandler"))]]></place>
+    </injection>
+  </component>
+</application>
