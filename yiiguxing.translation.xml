@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="query Custom In Target" />
+      <item value="queryCustomInTarget" />
       <item value="schedule At Fixed Rate" />
       <item value="累加" />
       <item value="叠加" />
@@ -12,7 +14,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
+        <entry key="CHINESE" value="7" />
         <entry key="ENGLISH" value="7" />
       </map>
     </option>
