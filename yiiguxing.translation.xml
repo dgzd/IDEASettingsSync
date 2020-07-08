@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Present" />
+      <item value="is Annotation Present" />
+      <item value="isAnnotationPresent" />
       <item value="query Custom In Target" />
       <item value="queryCustomInTarget" />
       <item value="schedule At Fixed Rate" />
