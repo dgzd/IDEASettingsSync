@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="TimePeriod" />
       <item value="reservation" />
       <item value="Appointment" />
       <item value="Error processing condition on com.lesso.redis.core.config.LessoClientRedisConfiguration.clientResources" />
