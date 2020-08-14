@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Caused by: java.sql.SQLException: sql injection violation, class com.alibaba.druid.sql.ast.statement.SQLDeclareStatement not allow" />
       <item value="TimePeriod" />
       <item value="reservation" />
       <item value="Appointment" />
