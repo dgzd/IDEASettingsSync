@@ -10,9 +10,21 @@
           <option name="url" value="http://gitlab.lesso.com/jingxing/PMS/PMS-JX.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.lesso.com/agilebpm/ab-wf.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.lesso.com/agilebpm/agilebpm.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.lesso.com/agilebpm/agilebpm-base-spring-boot.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\lesso\LESSO Project" />
+    <option name="cloneParentDir" value="D:\lesso\JX" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
