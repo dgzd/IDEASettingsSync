@@ -4,10 +4,9 @@
       <display-name>AddScoreHandler.execute (com.lesso.handler)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("com.lesso.handler.AddScoreHandler"))]]></place>
     </injection>
-    <injection language="SQL" injector-id="xml">
-      <display-name>MyBatis sql|select|insert|update|delete</display-name>
-      <place><![CDATA[xmlTag().withLocalName(string().oneOf("sql", "select", "insert", "update", "delete")).withNamespace(string().oneOf("http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd", "http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
-      <apply-to-subtags />
+    <injection language="JSON" injector-id="java">
+      <display-name>SyncOrdersFromJDHandler.execute (com.lesso.handler)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("com.lesso.handler.SyncOrdersFromJDHandler"))]]></place>
     </injection>
   </component>
 </application>
