@@ -22,6 +22,10 @@
           <option name="url" value="http://gitlab.lesso.com/agilebpm/agilebpm-base-spring-boot.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.lesso.com/jingxing/manufacturingmanagement/ManufacturingSys.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\lesso\LESSO Project" />
