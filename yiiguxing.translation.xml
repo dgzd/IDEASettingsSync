@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <histories>
       <item value="Concrete" />
+      <item value="Memento" />
       <item value="producer" />
       <item value="Producer" />
       <item value="RECONNECTED" />
@@ -27,8 +28,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="13" />
-        <entry key="ENGLISH" value="14" />
+        <entry key="CHINESE" value="15" />
+        <entry key="ENGLISH" value="16" />
       </map>
     </option>
   </component>
