@@ -34,9 +34,13 @@
           <option name="url" value="http://gitlab.prod.k8s.lesso.com/operation-jx-psm/manufacturingsys-server.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.lesso.com/cost_budget/cb_Service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\lesso\LESSO Project\psm" />
+    <option name="cloneParentDir" value="D:\lesso\JX" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
