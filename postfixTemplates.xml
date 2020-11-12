@@ -4,33 +4,37 @@
       <conditions />
       <template name="fakeKey" value="List&lt;$EXPR$&gt; $END$ = Lists.newArrayList();" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="ns@userDefined" key=".ns" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="if ($EXPR$ != null &amp;&amp; $EXPR$.size() &gt; 0){&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="list@userDefined" key=".list" provider="builtin.java" language-level="7" topmost="false">
       <conditions />
       <template name="fakeKey" value="List&lt;$EXPR$&gt; $END$ = new ArrayList&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="new@userDefined" key=".nw" provider="builtin.java" language-level="8" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="$EXPR$ $END$ = new $EXPR$();" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="set@userDefined" key=".set" provider="builtin.java" language-level="8" topmost="false">
       <conditions />
       <template name="fakeKey" value="Set&lt;$EXPR$&gt; $END$ = new HashSet&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="wp@userDefined" key=".wp" provider="builtin.java" language-level="7" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="Wrapper&lt;$EXPR$&gt; wrapper = new EntityWrapper&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="sets@userDefined" key=".sets" provider="builtin.java" language-level="8" topmost="false">
       <conditions />
       <template name="fakeKey" value="Set&lt;$EXPR$&gt; $END$ = Sets.newHashSet();" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="nwp@userDefined" key=".nwp" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="new EntityWrapper&lt;$EXPR$&gt;()" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="new@userDefined" key=".nw" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$ $END$ = new $EXPR$();" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="ps@userDefined" key=".ps" provider="builtin.java" language-level="7" topmost="false">
       <conditions />
       <template name="fakeKey" value="private String $EXPR$;" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="wp@userDefined" key=".wp" provider="builtin.java" language-level="7" topmost="false">
+    <template id="ns@userDefined" key=".ns" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
-      <template name="fakeKey" value="Wrapper&lt;$EXPR$&gt; wrapper = new EntityWrapper&lt;&gt;();" description="" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="if ($EXPR$ != null &amp;&amp; $EXPR$.size() &gt; 0){&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
