@@ -42,9 +42,13 @@
           <option name="url" value="http://gitlab.lesso.com/MES20200408/mes-component/mes-base.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.lesso.com/MES20200408/DM/dm.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\lesso" />
+    <option name="cloneParentDir" value="D:\lesso\mes" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
