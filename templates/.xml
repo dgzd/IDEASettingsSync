@@ -36,7 +36,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="se" value="throw new ServiceException(&quot;$END$&quot;);" description="throw new ServiceException(&quot;&quot;)" toReformat="false" toShortenFQNames="true">
+  <template name="tse" value="throw new ServiceException(&quot;$END$&quot;);" description="throw new ServiceException(&quot;&quot;)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
