@@ -1,0 +1,16 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://172.16.100.173:9000/" />
+          <option name="name" value="lesso_sonar" />
+          <option name="login" value="007264" />
+          <password>df9adf9adf9ddf98df9cdf9e</password>
+          <organizationKey>default-organization</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
+    <rules />
+  </component>
+</application>
