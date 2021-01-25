@@ -1,7 +1,5 @@
 <templateSet group="Mybatis/SQL">
-  <template name="CD" value="&lt;![CDATA[$SELECTION$]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
+  <template name="CD" value="&lt;![CDATA[$SELECTION$]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false" />
   <template name="if" value="&lt;if test=&quot;$param$ != null and $param$ !=''&quot;&gt;&#10;    $END$&#10;&lt;/if&gt;" description="&lt;if test=&quot;&quot;&gt;&lt;/if&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
